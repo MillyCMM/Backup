@@ -21,6 +21,10 @@
 	#Makes tipped arrows show their colors when loaded with a crossbow
 	crossbows_colors = true
 
+[tripwire_hook]
+	#Makes hooks render faster using a block model instead of tile renderer. Cost is that animated and enchanted items will appear static
+	fast_hooks = false
+
 [hanging_sign]
 	#Scale of items on hanging signs (unit is in pixel they would occupy). Set to 8 to better match the pixels on the sign
 	#Range: 0.0 ~ 32.0
